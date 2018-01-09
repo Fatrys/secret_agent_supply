@@ -83,3 +83,60 @@ nav .content-container {
 nav .content-container h3 {
   margin: 0.75rem auto;
 }
+
+/* Content section */
+
+.content {
+  width: 960px;
+  margin: auto;
+  border: black solid 1px;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.content .box  {
+  width: 30%;
+  border: black solid 4px;
+  padding: 3px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.content .box img {
+  height: 9rem;
+  margin: 2rem auto;
+  max-width: 80%;
+}
+
+.content .box p {
+  padding: 0.5rem;
+  text-align: center;
+  background-color: black;
+}
+
+.contacts {
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+  width: 960px;
+  margin: auto;
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.contacts .contact {
+  width: 35%;
+}
+
+.contacts .contact h4 {
+  background-color: black;
+  padding: 1rem 2rem;
+}
+
+.contacts .contact p {
+  color: black;
+}
