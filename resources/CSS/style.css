@@ -84,7 +84,7 @@ nav .content-container h3 {
   margin: 0.75rem auto;
 }
 
-/* Content section */
+/* Content section (items) */
 
 .content {
   width: 960px;
@@ -119,6 +119,8 @@ nav .content-container h3 {
   background-color: black;
 }
 
+/* content section (contact/info) */
+
 .contacts {
   margin-top: 3rem;
   margin-bottom: 4rem;
@@ -139,4 +141,20 @@ nav .content-container h3 {
 
 .contacts .contact p {
   color: black;
+}
+
+/* footer/copyright */
+
+footer {
+  background-color: black;
+  height: 5rem;
+  width: 100%;
+  margin-top: 4rem;
+  margin-bottom: 0rem;
+}
+
+footer p {
+  width: 960px;
+  text-align: left;
+  margin: 2rem 0rem;
 }
