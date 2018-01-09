@@ -47,7 +47,7 @@ header #header-content img {
   background-size: cover;
 }
 
-.top-image .content-container {
+ .content-container {
   width: 960px;
   margin: 0 auto;
   height: 100%;
@@ -71,7 +71,15 @@ header #header-content img {
 
 /* "nav bar" css */
 
+nav {
+  background-color: red;
+}
 
+nav .content-container {
+  display: flex;
+  justify-content: space-between;
+}
 
-
-ghg
+nav .content-container h3 {
+  margin: 0.75rem auto;
+}
